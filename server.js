@@ -62,6 +62,6 @@ app.get('/api/:itemName', (request, response) => {
     }
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Streznik tece na portu ${PORT}`)
 })
