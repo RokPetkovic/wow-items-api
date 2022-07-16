@@ -33,6 +33,13 @@ const items = {
         "drops from": "Four Horsemen"
     },
 
+    "sulfuras, hand of ragnaros" : {
+        "minDmg": 223,
+        "maxDmg": 372,
+        "type": "Two-Handed Mace",
+        "drops from": "Crafted"
+    },
+
     "non-existant" : {
         "minDmg": 0,
         "maxDmg": 0,
@@ -59,6 +66,7 @@ app.get('/api/:itemName', (request, response) => {
         response.json(items[ourItem])
     }else {
         response.json(items["non-existant"])
+        console.log(items["non-existant"])
     }
 })
 
