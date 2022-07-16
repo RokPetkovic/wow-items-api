@@ -49,6 +49,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api', (request, response) => {
+    console.log(items)
     response.json(items)
 })
 
