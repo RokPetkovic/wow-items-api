@@ -38,15 +38,7 @@ const items = {
         "maxDmg": 0,
         "type": "Nothing",
         "drops from": "No One"
-    },
-
-    "maul of the redeemed crusader2" : {
-        "minDmg": 244,
-        "maxDmg": 367,
-        "type": "Two-Handed Mace",
-        "drops from": "Four Horsemen"
     }
-
 }
 
 app.use(cors())
