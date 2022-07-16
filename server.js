@@ -58,7 +58,7 @@ app.get('/api/:itemName', (request, response) => {
     if(items[ourItem]) {
         response.json(items[ourItem])
     }else {
-        response.json(items["Non-Existant"])
+        response.json(items["non-existant"])
     }
 })
 
