@@ -40,6 +40,13 @@ const items = {
         "drops from": "Crafted"
     },
 
+    "spire of twighlight" : {
+        "minDmg": 141,
+        "maxDmg": 251,
+        "type": "Staff",
+        "drops from": "Thaddius"
+    },
+
     "non-existant" : {
         "minDmg": 0,
         "maxDmg": 0,
